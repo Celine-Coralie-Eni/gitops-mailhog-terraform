@@ -10,6 +10,8 @@ spec:
   - name: smtp
     port: 1025
     targetPort: 1025
+    nodePort: 30102
   - name: web
     port: 8025
     targetPort: 8025
+    nodePort: 30825
